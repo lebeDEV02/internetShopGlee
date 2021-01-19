@@ -10,7 +10,10 @@ body{
 	line-height: 30px;
 	display: flex;
 	flex-direction: column;
+	@extend %rubik-400;
+	color: $default;
 }
 .main{
 	flex-grow: 1;
 }
+
