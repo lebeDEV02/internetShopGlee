@@ -1,6 +1,7 @@
 $accent: #243f4d; 
 $default:#436372;
 $weak: #585858;
+$links: #436372;
 
 
 %rubik-400{
@@ -26,4 +27,9 @@ $weak: #585858;
 %poppins-700{
 	font-family: 'Poppins-Bold', sans-serif;
 	font-weight: 700;
+}
+%button{
+	background-color: #a3bbc8;
+	color: white;
+	border: none;
 }
