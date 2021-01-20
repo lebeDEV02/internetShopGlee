@@ -33,3 +33,9 @@ $bg: #fef7f0;
 	color: white;
 	border: none;
 }
+@function max($numbers...){
+  @return m#{a}x(#{$numbers});
+}
+@function max($numbers...){
+  @return m#{a}x(#{$numbers});
+}
