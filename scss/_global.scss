@@ -19,3 +19,13 @@ body{
 	flex-grow: 1;
 }
 
+.title{
+	@extend %dmsans-700;
+	font-size: 36px;
+	color: $title;
+}
+.container-small{
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
