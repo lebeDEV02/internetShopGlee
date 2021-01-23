@@ -379,6 +379,9 @@
 			}
 		}
 	}
+	.mixitup-control-active{
+	color: $title;
+}
 }
 .items{
 	padding: 90px 0 110px;
@@ -477,6 +480,9 @@
 	}
 	&__item-inner{
 		padding: 40px 0 0 30px;
+	}
+	.mixitup-control-active{
+	color: $title;
 	}
 }
 
