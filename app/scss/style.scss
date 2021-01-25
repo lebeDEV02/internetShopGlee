@@ -485,7 +485,214 @@
 	color: $title;
 	}
 }
-
+.blog{
+	padding-top: 120px;
+	position: relative;
+	&__top{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 40px;
+	}
+	&__top-link{
+		@extend %dmsans-700;
+		color: #262626;
+		padding-right: 25px;
+		position: relative;
+		&::after{
+			content: '';
+			background-image: url('../images/icons/navigate.svg');
+			position: absolute;
+			width: 6px;
+			height: 11px;
+			right: 0;
+			top: 10px;
+		}
+	}
+	&__items{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 100px;
+	}
+	&__item{
+		max-width: 370px;
+		width: 100%;
+		height: 420px;
+		  box-shadow: 0px 6px 47px 3px rgba(37, 37, 37, 0.05);
+		  background-color: #fff;
+		&+&{
+			margin-left: 30px;
+		}
+	}
+	&__img{
+		height: 250px;
+		object-fit: cover;
+	}
+	&__imagelink{
+		position: relative;
+		margin-bottom: 35px;
+		display: block;
+	}
+	&__capsule{
+		position: absolute;
+		text-transform: uppercase;
+		background-color: #a3bbc8;
+		color: #fff;
+		@extend %poppins-700;
+		padding: 3px 35px;
+		border-radius: 25px;
+		bottom: -16px;
+		left: 30px;
+	}
+	&__inner{
+		padding: 0px 30px;
+		display: flex;
+		flex-direction: column;
+		height: calc(370px - 250px);
+	}
+	&__text{
+		@extend %dmsans-500;
+		color: #262626;
+		font-size: 18px;
+		height: auto;
+		line-height: 20px;
+	}
+	&__divider{
+		height: 1px;
+		background-color: #e0e0e0;
+		margin-top: auto;
+	}
+	&__info{
+		@extend %rubik-400;
+		display: flex;
+		margin: 10px 0 0 15px;
+		font-size: 12px;
+		text-transform: uppercase;
+		color: #222933;
+	}
+	&__author{
+		color: #222933;
+		margin-left: 40px;
+		&::before{
+			background-image: url('../images/icons/user.svg');
+		}
+	}
+	&__date{
+		&::before{
+			background-image: url('../images/icons/calendar.svg');
+		}
+	}
+	&__author,
+	&__date{
+		position: relative;
+		padding-left: 12px;
+		&::before{
+			content: '';
+			position: absolute;
+			width: 16px;
+			height: 16px;
+			left: -10px;
+			bottom: 8px;
+			background-repeat: no-repeat;
+		}
+	}
+	&__partners{
+		display: flex;
+		justify-content: space-between;
+		padding: 0 80px 150px 50px;
+		align-items: center;
+	}
+	&__background{
+		height: 504px;
+		width: 100%;
+		background-color: #fef7f0;
+		position: absolute;
+		bottom: 0;
+		z-index: -1;
+	}
+}
+.authorization{
+	padding: 115px 0;
+	color: $links;
+	font-size: 14px;
+	@extend %dmsans-500;
+	a{
+		color: inherit;
+		font-size: inherit;
+		@extend %dmsans-500;
+	}
+	&__label{
+		margin-bottom: 15px;
+		display: block;
+	}
+	&__username,
+	&__password{
+		display: block;
+		border: 2px solid #f6f6f6;
+		width: 100%;
+		height: 55px;
+		padding: 0px 15px;
+		margin: 5px 0 30px;
+	}
+	&__login{
+		width: 100%;
+		color: #fff;
+		border: none;
+		background-color: #a3bbc8;
+		padding: 15px 0;
+		margin-bottom: 30px;
+		cursor: pointer;
+	}
+	&__optional{
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 2px solid #f6f6f6;
+		padding-bottom: 10px;
+	}
+	&__register{
+		display: block;
+		text-align: center;
+		margin: 35px 0 25px;
+	}
+	&__create{
+		color: $accent;
+		text-align: center;
+		display: block;
+		width: 100%;
+		@extend %rubik-500;
+		font-size: 18px;
+		padding: 20px 0;
+		border: 2px solid #a3bbc8; 
+	}
+}
+.rules{
+	padding-top: 120px;
+	&__types{
+		margin-bottom: 50px;
+		.rules__title{
+			margin-bottom: 20px;
+		}
+	}
+	&__inner{
+		display: flex;
+		color: $accent;
+		&+&{
+			margin-top: 15px;
+		}
+		.rules__text{
+			margin-left: 15px;
+		}
+	}
+	&__title{
+		color: $accent;
+		font-size: 24px;
+		line-height: 40px;
+		@extend %rubik-500;
+		margin-bottom: 10px;
+	}
+	&__how-first{
+		margin-bottom: 50px;
+	}
+}
 
 
 
