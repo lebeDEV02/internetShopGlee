@@ -29,3 +29,12 @@ body{
 	margin: 0 auto;
 	padding: 0 15px;
 }
+.partners{
+	background-color: #fef7f0;
+}
+.partners__inner{
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 80px 90px 50px;
+	align-items: center;
+}
