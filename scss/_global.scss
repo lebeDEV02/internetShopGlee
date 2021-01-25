@@ -29,12 +29,41 @@ body{
 	margin: 0 auto;
 	padding: 0 15px;
 }
+.top{
+	text-align: center;
+	padding: 35px 0;
+	background-color: #edf1f4;
+	&__title{
+		@extend %rubik-400;
+		color: #222933;
+		font-size: 36px;
+		line-height: 24px;
+		margin-bottom: 10px;
+	}
+}
+.breadcrumbs__link{
+	font-size: 14px;
+	line-height: 24px;
+	color: $weak;
+	&::after{
+		content: '/';
+	}
+	&:last-child{
+		padding-right: 0;
+		&::after{
+			content: '';
+		}
+	}
+	&+&{
+		margin-left: 2px;
+	}
+}
 .partners{
 	background-color: #fef7f0;
-}
-.partners__inner{
+	&__inner{
 	display: flex;
 	justify-content: space-between;
 	padding: 80px 80px 90px 50px;
 	align-items: center;
+	}
 }
