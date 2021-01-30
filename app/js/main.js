@@ -9,6 +9,23 @@ $(function () {
 	function my_prettify(n) {
 		return n.toFixed(2);
 	}
+	$('.product-about__small').slick({
+		asNavFor: '.product-about__big',
+		vertical: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		arrows: false,
+		draggable: false,
+		focusOnSelect: true
+	});
+	$('.product-about__big').slick({
+		asNavFor: '.product-about__small',
+		draggable: false,
+		fade: true,
+		arrows: false
+
+	});
+	$('.product-about__input').styler();
 	$('.shop-filters__price-input').ionRangeSlider({
 		type: "double",
 		prefix: "$",
