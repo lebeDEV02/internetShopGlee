@@ -76,4 +76,5 @@ $(function () {
 	$('.user-nav__link--first').on('click', function () {
 		$('.user-nav__wrapper').toggleClass('active');
 	});
+
 });
