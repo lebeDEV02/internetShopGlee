@@ -1,0 +1,54 @@
+.authorization{
+	padding: 115px 0;
+	color: $links;
+	font-size: 14px;
+	@extend %dmsans-500;
+	a{
+		color: inherit;
+		font-size: inherit;
+		@extend %dmsans-500;
+	}
+	&__label{
+		margin-bottom: 15px;
+		display: block;
+	}
+	&__username,
+	&__password{
+		display: block;
+		border: 2px solid #f6f6f6;
+		width: 100%;
+		height: 55px;
+		padding: 0px 15px;
+		margin: 5px 0 30px;
+	}
+	&__login{
+		width: 100%;
+		color: #fff;
+		border: none;
+		background-color: #a3bbc8;
+		padding: 15px 0;
+		margin-bottom: 30px;
+		cursor: pointer;
+	}
+	&__optional{
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 2px solid #f6f6f6;
+		padding-bottom: 10px;
+	}
+	&__register{
+		display: block;
+		text-align: center;
+		margin: 35px 0 25px;
+	}
+	&__create{
+		color: $accent;
+		text-align: center;
+		display: block;
+		width: 100%;
+		@extend %rubik-500;
+		font-size: 18px;
+		padding: 20px 0;
+		border: 2px solid #a3bbc8; 
+	}
+}

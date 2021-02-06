@@ -1,0 +1,101 @@
+.slider{
+	&__inner{
+		background-color: #fcd7b6;
+		background-image: url('../images/slider-bg.png');
+	background-repeat: no-repeat;
+	background-position: 85% 30%;
+	}
+	&-top{
+		max-width: 1170px;
+		margin: 0 auto;
+		padding: 225px 0 280px;
+	}
+	&-top__item{
+		display: flex !important;
+		justify-content: space-between;
+		padding-bottom: 20px;
+	}
+	&-top__title{
+		color: $accent;
+		font-size: 72px;
+		line-height: 70px;
+		@extend %rubik-500;
+		margin-bottom: 35px;
+	}
+	&-top__paragraph{
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+	&-top__btn{
+		@extend %button;
+		padding: 20px 110px 20px 25px;
+		position: relative;
+		&::before{
+			content: '';
+			background-image: url('../images/icons/arrow.svg');
+			width: 22px;
+			height: 9px;
+			position: absolute;
+			right: 18px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+	.slick-dots{
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		bottom: 40px;
+		left: 0;
+		right: 0;
+		button{
+			font-size: 11px;
+			line-height: 9px;
+			color: $accent;
+			@extend %rubik-500;
+			border-radius: 50%;
+			width: 30px;
+			border: none;
+			background-color: #fff;
+			height: 30px;
+			opacity: .3;
+		}
+		li+li{
+			margin-left: 10px;
+		}
+		.slick-active{
+			button{
+				opacity: 1;
+			}
+		}
+	}
+	&-bottom{
+		background-color: $bg;
+		&__items{
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+		}
+		&__item{
+			padding: 50px 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			&+&{
+				border-left: 1px solid #e8e4df;
+			}
+		}
+		&__img{
+			margin-right: 25px;
+		}
+		&__title{
+			font-size: 18px;
+			line-height: 40px;
+			@extend %dmsans-700;
+			color: #414141;
+		}
+		&__paragraph{
+			max-width: 220px;
+			color: $weak;
+		}
+	}
+}
