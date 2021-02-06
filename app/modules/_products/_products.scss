@@ -1,0 +1,96 @@
+.products{
+	padding: 80px 0 90px;
+	&__inner{
+		text-align: center;
+	}
+	&__title{
+		margin-bottom: 35px;
+	}
+	&__btns{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 80px;
+	}
+	&__btn{
+		border: none;
+		background-color: transparent;
+		@extend %dmsans-700;
+		color: #8b8b8b;
+		&+&{
+			margin-left: 15px;
+		}
+	}
+	&__items{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 40px 30px;
+		
+	}
+	&__item{
+		background-color: #fff;
+		box-shadow: 0px 6px 47px 3px rgba(37, 37, 37, 0.05);
+		overflow: hidden;
+		text-align: center;
+		display: flex ;
+		flex-direction: column;
+		align-items: center;
+		height: 380px;
+		padding: 0 25px 20px;
+		position: relative;
+		&:hover{
+			.products__popup-items{
+				transform: translateY(0);
+			}
+		}
+		img{
+			margin: auto 0;
+			height: fit-content;
+		}
+	}
+	&__popup-item{
+		border: none;
+	}
+	&__name{
+		@extend %dmsans-500;
+		line-height: 40px;
+		color: $accent;
+	}
+	&__cost{
+		line-height: 40px;
+		color: #a3bbc8;
+	}
+	&__popup-items{
+		transition: all .3s;
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		bottom: 160px;
+		transform: translateY(500%);
+	}
+	&__popup-item{
+		transition: all .3s;
+		display: block;
+		background-color: #fff;
+		width: 45px;
+		height: 45px;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		path{
+			transition: all .3s;
+		}
+		&+&{
+			margin-left: 15px;
+		}
+		&:hover{
+			background-color: #a3bbc8;
+			path{
+				fill: #fff;
+			}
+		}
+	}
+	.mixitup-control-active{
+	color: $title;
+}
+}
