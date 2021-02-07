@@ -5,77 +5,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/index.min.css">
+	<link rel="stylesheet" href="css/terms.min.css">
 </head>
-
 <body>
-	<header class="header">
-	<div class="container">
-		<div class="header__inner">
-			<a class="logo__link" href="index.html"><img class="logo__img" src="images/logo.png" alt="logo"></a>
-			<nav class="menu">
-				<button class="menu__btn">
-					<span></span>
-				</button>
-				<ul class="menu__list">
-					<li class="menu__list-item">
-						<a class="menu__list-link" href="#">Home +</a>
-					</li>
-					<li class="menu__list-item">
-						<a class="menu__list-link" href="#">About</a>
-					</li>
-					<li class="menu__list-item">
-						<a class="menu__list-link" href="#">Services</a>
-					</li>
-					<li class="menu__list-item">
-						<a class="menu__list-link" href="#">Pages +</a>
-					</li>
-					<li class="menu__list-item">
-						<a class="menu__list-link" href="#">News</a>
-					</li>
-					<li class="menu__list-item">
-						<a class="menu__list-link" href="#">Contact</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="user-nav">
-				<div class="user-nav__wrapper">
-					<div class="user-nav__add">
-						<input class="user-nav__input" placeholder="Search..." type="text">
-						<button class="user-nav__link user-nav__link--first" href="#">
-							<img class="user-nav__img" src="images/icons/search.svg" alt="">
-						</button>
-					</div>
-					<div class="user-nav__inner">
-						<a class="user-nav__link" href="#">
-							<img class="user-nav__img" src="images/icons/heart.svg" alt="">
-							<span>0</span>
-						</a>
-						<a class="user-nav__link" href="#">
-							<img class="user-nav__img" src="images/icons/cart.svg" alt="">
-							<span>0</span>
-						</a>
-					</div>
-					<a class="user-nav__link user-nav__link--fourth" href="shop-1.html">
-						<img class="user-nav__img user-nav__img" src="images/icons/menu.svg" alt="">
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
+	{% include 'app/modules/_header/_header.html' %}
 	<main class="main">
+		{% include 'app/modules/_breadcrumbs/_breadcrumbs.html' %}
+		{% include 'app/modules/_rules/_rules.html' %}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-			
+			{% include 'app/modules/_blog/_blog.html' %}
 	</main>
 	<footer class="footer">
 		<div class="container-small">
@@ -90,7 +28,7 @@
 						<a class="footer__email" href="mailto:contact@Glee.com">EMAIL: contact@Glee.com</a>
 					</div>
 					<div class="footer__item footer__item-info">
-						<h5 class="footer__title footer__title-dropdown">Services</h5>
+						<h6 class="footer__title">Services</h6>
 						<ul class="footer__list">
 							<li class="footer__list-item">
 								<a class="footer__list-link" href="#">
@@ -114,14 +52,14 @@
 								</a>
 							</li>
 							<li class="footer__list-item">
-								<a class="footer__list-link" href="terms.html">
+								<a class="footer__list-link" href="#">
 									Terms & Condition
 								</a>
 							</li>
 						</ul>
 					</div>
 					<div class="footer__item footer__item-info">
-						<h5 class="footer__title footer__title-dropdown">Account</h5>
+						<h6 class="footer__title">Account</h6>
 						<ul class="footer__list">
 							<li class="footer__list-item">
 								<a class="footer__list-link" href="#">
@@ -134,7 +72,7 @@
 								</a>
 							</li>
 							<li class="footer__list-item">
-								<a class="footer__list-link" href="login.html">
+								<a class="footer__list-link" href="#">
 									Login
 								</a>
 							</li>
@@ -146,8 +84,8 @@
 						</ul>
 					</div>
 					<div class="footer__item footer__item-news">
-						<h5 class="footer__title">newsletter</h5>
-						<p class="footer__text">Subscribe by our newsletter and get
+						<h6 class="footer__title">newsletter</h6>
+						<p class="footer__text">Subscribe by our newsletter and get <br>
 							update protidin.</p>
 						<form action="#">
 							<input class="footer__input" type="email" required placeholder="Email address">
@@ -168,7 +106,6 @@
 		</div>
 	</footer>
 </body>
-
 <script src="js/main.min.js"></script>
 
 </html>
