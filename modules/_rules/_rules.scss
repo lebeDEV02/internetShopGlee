@@ -1,0 +1,38 @@
+
+.rules{
+	padding-top: 120px;
+	&__types{
+		margin-bottom: 50px;
+		.rules__title{
+			margin-bottom: 20px;
+		}
+	}
+	&__list{
+		list-style-type: none;
+	counter-reset: li;
+	}
+	&__item{
+		color: $accent;
+		position: relative;
+		padding-left: 40px;
+		&::before{
+			counter-increment: li;
+  content: counter(li, decimal-leading-zero)'.';
+  position: absolute;
+  left: 0;
+		}
+		&+&{
+			margin-top: 30px;
+		}
+	}
+	&__title{
+		color: $accent;
+		font-size: 24px;
+		line-height: 40px;
+		@extend %rubik-500;
+		margin-bottom: 10px;
+	}
+	&__how-first{
+		margin-bottom: 50px;
+	}
+}

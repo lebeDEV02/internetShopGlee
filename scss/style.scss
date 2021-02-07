@@ -13,35 +13,6 @@
 
 
 
-.rules{
-	padding-top: 120px;
-	&__types{
-		margin-bottom: 50px;
-		.rules__title{
-			margin-bottom: 20px;
-		}
-	}
-	&__inner{
-		display: flex;
-		color: $accent;
-		&+&{
-			margin-top: 15px;
-		}
-		.rules__text{
-			margin-left: 15px;
-		}
-	}
-	&__title{
-		color: $accent;
-		font-size: 24px;
-		line-height: 40px;
-		@extend %rubik-500;
-		margin-bottom: 10px;
-	}
-	&__how-first{
-		margin-bottom: 50px;
-	}
-}
 .mission{
 	padding: 120px 0;
 	&__wrapper{
