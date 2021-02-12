@@ -1,0 +1,75 @@
+@media(max-width: 1200px){
+	.mission{
+		padding: 60px 0;
+		&__wrapper{
+			flex-direction: column;
+		}
+		&__inner{
+			margin-left: 15px;
+		}
+		&__achievement--1,
+		&__achievement--2{
+			&::after{
+				display: none;
+			}
+		}
+		&__divider{
+			width: 100%;
+		}
+		&__img{
+			margin-bottom: 40px;
+		}
+	}
+}
+@media (max-width: 950px){
+	.statistics{
+		padding: 50px 0;
+		&__items{
+			flex-direction: column;
+		}
+		&__image{
+			width: 30%;
+			text-align: center;
+			margin: 0 auto;
+		}
+	}
+	.team{
+		&__inner{
+			flex-direction: column;
+		}
+		&__about{
+			max-width: 100%;
+			margin-bottom: 50px;
+		}
+	}
+}
+@media (max-width: 750px){
+	.team{
+		&__items{
+			grid-template-columns: repeat(1,1fr);
+		}
+		&__image{
+			min-width: 100%;
+		}
+		&__popup{
+			max-width: none;
+		}
+	}
+}
+@media (max-width: 600px){
+	.mission{
+		padding-bottom: 0;
+		&__descr{
+			margin-bottom: 25px;
+		}
+		&__achievements{
+			flex-direction: column;
+			margin-bottom: 25px;
+		}
+		&__achievement{
+			&+&{
+				margin-top: 20px;
+			}
+		}
+	}
+}
