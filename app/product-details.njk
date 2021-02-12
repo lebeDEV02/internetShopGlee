@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<a class="logo__link" href="#"><img class="logo__img" src="images/logo.png" alt="logo"></a>
+				<nav class="menu">
+					<ul class="menu__list">
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">Home +</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">About</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">Services</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">Pages +</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">News</a>
+						</li>
+						<li class="menu__list-item">
+							<a class="menu__list-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="user-nav">
+					<div class="user-nav__wrapper">
+						<div class="user-nav__add">
+							<input class="user-nav__input" placeholder="Search..." type="text">
+							<button class="user-nav__link user-nav__link--first" href="#">
+								<img class="user-nav__img" src="images/icons/search.svg" alt="">
+							</button>
+						</div>
+						<div class="user-nav__inner">
+							<a class="user-nav__link" href="#">
+								<img class="user-nav__img" src="images/icons/heart.svg" alt="">
+								<span>0</span>
+							</a>
+							<a class="user-nav__link" href="#">
+								<img class="user-nav__img" src="images/icons/cart.svg" alt="">
+								<span>0</span>
+							</a>
+						</div>
+						<a class="user-nav__link user-nav__link--fourth" href="#">
+							<img class="user-nav__img user-nav__img" src="images/icons/menu.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="top">
+			<h2 class="top__title">Products Details</h2>
+			<div class="breadcrumbs">
+				<a class="breadcrumbs__link" href="index.html">
+					Home
+				</a>
+				<a class="breadcrumbs__link" href="#">
+					Products Details
+				</a>
+			</div>
+		</div>
+		<section class="product-about">
+			<div class="container-small">
+				<div class="product-about__inner">
+					<div class="product-about__sliders">
+						<div class="product-about__small">
+							<div class="product-about__small-item"><img src="images/product-about/1.png"
+									alt="product small image"></div>
+							<div class="product-about__small-item"><img src="images/product-about/1.png"
+									alt="product small image"></div>
+							<div class="product-about__small-item"><img src="images/product-about/1.png"
+									alt="product small image"></div>
+							<div class="product-about__small-item"><img src="images/product-about/1.png"
+									alt="product small image"></div>
+						</div>
+						<div class="product-about__big">
+							<div class="product-about__big-item"><img src="images/product-about/1.png" alt="product big image">
+							</div>
+							<div class="product-about__big-item"><img src="images/product-about/1.png" alt="product big image">
+							</div>
+							<div class="product-about__big-item"><img src="images/product-about/1.png" alt="product big image">
+							</div>
+							<div class="product-about__big-item"><img src="images/product-about/1.png" alt="product big image">
+							</div>
+						</div>
+					</div>
+					<div class="product-about__descr">
+						<h2 class="product-about__title">Pendant lamp</h2>
+						<div class="shop-list__stars prodcut-about__stars" data-rateyo-rating="4"></div>
+						<div class="product-about__price">23$</div>
+						<p class="product-about__text">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. Ut enim ad minim
+							veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+						<form class="product-about__form" action="#">
+							<input class="product-about__input" type="number" value="1" min="1" max="100" readonly="true">
+							<button class="product-about__button" type="submit">Add to cart</button>
+						</form>
+						<div class="product-about__characteristics">
+							<div class="product-about__characteristic">
+								<h6 class="product-about__property">SKU:</h6>
+								<span class="product-about__value">014</span>
+							</div>
+							<div class="product-about__characteristic">
+								<h6 class="product-about__property">Category:</h6>
+								<span class="product-about__value">Lights</span>
+							</div>
+							<div class="product-about__characteristic">
+								<h6 class="product-about__property">Tag:</h6>
+								<span class="product-about__value">Decorative</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tabs">
+					<div class="tabs__items">
+						<a class="tabs__link tabs__link--active" href="#descr">Description</a>
+						<a class="tabs__link" href="#additional">Additional Information</a>
+						<a class="tabs__link" href="#reviews">Reviews (2)</a>
+					</div>
+					<div class="tabs__contents">
+						<p class="tabs__content tabs__content--active" id="descr">
+							consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+							enim ad minim
+							veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo Lorem ipsum dolor
+							sit amet, consectetur
+							adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+							minim veniam, quis
+							nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</p>
+						<div class="tabs__content" id="additional">
+							content 2
+						</div>
+						<div class="tabs__content" id="reviews">
+							content 3
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="related">
+			<div class="container-small">
+				<h3 class="related__title">Related products</h3>
+				<div class="related__inner">
+					<div class="products__item">
+						<img src="images/products/1.png" alt="product image">
+						<div class="products__popup-items">
+							<a class="products__popup-item" href="#">
+								<svg width="20" height="20" viewBox="0 0 20 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M759.45,1579.8l-4.588-4.59a8.827,8.827,0,0,1-2.651,2.65l4.588,4.59A1.874,1.874,0,0,0,759.45,1579.8Zm-4.45-9.3a7.5,7.5,0,1,0-7.5,7.5A7.5,7.5,0,0,0,755,1570.5Zm-7.5,5.62a5.625,5.625,0,1,1,5.625-5.62A5.628,5.628,0,0,1,747.5,1576.12Zm-4.375-5.62h1.25a3.135,3.135,0,0,1,3.125-3.13v-1.25A4.386,4.386,0,0,0,743.125,1570.5Z"
+										transform="translate(-740 -1563)" />
+								</svg>
+							</a>
+							<button class="products__popup-item">
+								<svg width="22" height="20" viewBox="0 0 22 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #fff;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M800.814,1564.63h2.333l3.323,12.04a0.812,0.812,0,0,0,.787.59h10.214a0.821,0.821,0,0,0,.746-0.48l3.717-8.56a0.836,0.836,0,0,0-.068-0.78,0.813,0.813,0,0,0-.678-0.37H809.9a0.82,0.82,0,0,0,0,1.64H819.94l-3.011,6.92h-9.062l-3.323-12.03a0.808,0.808,0,0,0-.787-0.6h-2.943A0.815,0.815,0,0,0,800.814,1564.63Zm5.67,18.37a1.85,1.85,0,1,0-1.845-1.85A1.85,1.85,0,0,0,806.484,1583Zm11.53,0h0.135A1.907,1.907,0,1,0,818.014,1583Z"
+										transform="translate(-800 -1563)" />
+								</svg>
+							</button>
+							<button class="products__popup-item">
+								<svg width="22" height="18" viewBox="0 0 22 18">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M882.99,1569.82a6.208,6.208,0,0,0-1.849-4.1A5.871,5.871,0,0,0,877,1564c-2.311,0-3.948,1.78-4.827,2.74a2.156,2.156,0,0,1-.156.17l-0.083-.09c-0.8-.92-2.476-2.82-4.938-2.82a5.873,5.873,0,0,0-4.139,1.72,6.208,6.208,0,0,0-1.849,4.1,6.845,6.845,0,0,0,1.271,4.34,29.307,29.307,0,0,0,4.763,4.75c1.705,1.41,3.95,3.09,4.965,3.09,1.032,0,3.269-1.68,4.965-3.09a29.234,29.234,0,0,0,4.746-4.75A6.935,6.935,0,0,0,882.99,1569.82Zm-2.376,3.61a27,27,0,0,1-4.431,4.42c-2.406,2-3.831,2.79-4.172,2.82-0.342-.03-1.77-0.83-4.188-2.84a26.78,26.78,0,0,1-4.437-4.4,5.6,5.6,0,0,1-1.054-3.54,4.807,4.807,0,0,1,4.666-4.57c1.863,0,3.216,1.54,3.943,2.37a1.52,1.52,0,0,0,1.059.76,1.731,1.731,0,0,0,1.151-.81c0.794-.87,2.122-2.32,3.851-2.32a4.807,4.807,0,0,1,4.666,4.57A5.528,5.528,0,0,1,880.614,1573.43Z"
+										transform="translate(-861 -1564)" />
+								</svg>
+							</button>
+						</div>
+						<p class="products__name">Wooden radio</p>
+						<p class="products__cost">$29.00</p>
+					</div>
+					<div class="products__item">
+						<img src="images/products/1.png" alt="product image">
+						<div class="products__popup-items">
+							<a class="products__popup-item" href="#">
+								<svg width="20" height="20" viewBox="0 0 20 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M759.45,1579.8l-4.588-4.59a8.827,8.827,0,0,1-2.651,2.65l4.588,4.59A1.874,1.874,0,0,0,759.45,1579.8Zm-4.45-9.3a7.5,7.5,0,1,0-7.5,7.5A7.5,7.5,0,0,0,755,1570.5Zm-7.5,5.62a5.625,5.625,0,1,1,5.625-5.62A5.628,5.628,0,0,1,747.5,1576.12Zm-4.375-5.62h1.25a3.135,3.135,0,0,1,3.125-3.13v-1.25A4.386,4.386,0,0,0,743.125,1570.5Z"
+										transform="translate(-740 -1563)" />
+								</svg>
+							</a>
+							<button class="products__popup-item">
+								<svg width="22" height="20" viewBox="0 0 22 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #fff;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M800.814,1564.63h2.333l3.323,12.04a0.812,0.812,0,0,0,.787.59h10.214a0.821,0.821,0,0,0,.746-0.48l3.717-8.56a0.836,0.836,0,0,0-.068-0.78,0.813,0.813,0,0,0-.678-0.37H809.9a0.82,0.82,0,0,0,0,1.64H819.94l-3.011,6.92h-9.062l-3.323-12.03a0.808,0.808,0,0,0-.787-0.6h-2.943A0.815,0.815,0,0,0,800.814,1564.63Zm5.67,18.37a1.85,1.85,0,1,0-1.845-1.85A1.85,1.85,0,0,0,806.484,1583Zm11.53,0h0.135A1.907,1.907,0,1,0,818.014,1583Z"
+										transform="translate(-800 -1563)" />
+								</svg>
+							</button>
+							<button class="products__popup-item">
+								<svg width="22" height="18" viewBox="0 0 22 18">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M882.99,1569.82a6.208,6.208,0,0,0-1.849-4.1A5.871,5.871,0,0,0,877,1564c-2.311,0-3.948,1.78-4.827,2.74a2.156,2.156,0,0,1-.156.17l-0.083-.09c-0.8-.92-2.476-2.82-4.938-2.82a5.873,5.873,0,0,0-4.139,1.72,6.208,6.208,0,0,0-1.849,4.1,6.845,6.845,0,0,0,1.271,4.34,29.307,29.307,0,0,0,4.763,4.75c1.705,1.41,3.95,3.09,4.965,3.09,1.032,0,3.269-1.68,4.965-3.09a29.234,29.234,0,0,0,4.746-4.75A6.935,6.935,0,0,0,882.99,1569.82Zm-2.376,3.61a27,27,0,0,1-4.431,4.42c-2.406,2-3.831,2.79-4.172,2.82-0.342-.03-1.77-0.83-4.188-2.84a26.78,26.78,0,0,1-4.437-4.4,5.6,5.6,0,0,1-1.054-3.54,4.807,4.807,0,0,1,4.666-4.57c1.863,0,3.216,1.54,3.943,2.37a1.52,1.52,0,0,0,1.059.76,1.731,1.731,0,0,0,1.151-.81c0.794-.87,2.122-2.32,3.851-2.32a4.807,4.807,0,0,1,4.666,4.57A5.528,5.528,0,0,1,880.614,1573.43Z"
+										transform="translate(-861 -1564)" />
+								</svg>
+							</button>
+						</div>
+						<p class="products__name">Wooden radio</p>
+						<p class="products__cost">$29.00</p>
+					</div>
+					<div class="products__item">
+						<img src="images/products/1.png" alt="product image">
+						<div class="products__popup-items">
+							<a class="products__popup-item" href="#">
+								<svg width="20" height="20" viewBox="0 0 20 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M759.45,1579.8l-4.588-4.59a8.827,8.827,0,0,1-2.651,2.65l4.588,4.59A1.874,1.874,0,0,0,759.45,1579.8Zm-4.45-9.3a7.5,7.5,0,1,0-7.5,7.5A7.5,7.5,0,0,0,755,1570.5Zm-7.5,5.62a5.625,5.625,0,1,1,5.625-5.62A5.628,5.628,0,0,1,747.5,1576.12Zm-4.375-5.62h1.25a3.135,3.135,0,0,1,3.125-3.13v-1.25A4.386,4.386,0,0,0,743.125,1570.5Z"
+										transform="translate(-740 -1563)" />
+								</svg>
+							</a>
+							<button class="products__popup-item">
+								<svg width="22" height="20" viewBox="0 0 22 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #fff;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M800.814,1564.63h2.333l3.323,12.04a0.812,0.812,0,0,0,.787.59h10.214a0.821,0.821,0,0,0,.746-0.48l3.717-8.56a0.836,0.836,0,0,0-.068-0.78,0.813,0.813,0,0,0-.678-0.37H809.9a0.82,0.82,0,0,0,0,1.64H819.94l-3.011,6.92h-9.062l-3.323-12.03a0.808,0.808,0,0,0-.787-0.6h-2.943A0.815,0.815,0,0,0,800.814,1564.63Zm5.67,18.37a1.85,1.85,0,1,0-1.845-1.85A1.85,1.85,0,0,0,806.484,1583Zm11.53,0h0.135A1.907,1.907,0,1,0,818.014,1583Z"
+										transform="translate(-800 -1563)" />
+								</svg>
+							</button>
+							<button class="products__popup-item">
+								<svg width="22" height="18" viewBox="0 0 22 18">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M882.99,1569.82a6.208,6.208,0,0,0-1.849-4.1A5.871,5.871,0,0,0,877,1564c-2.311,0-3.948,1.78-4.827,2.74a2.156,2.156,0,0,1-.156.17l-0.083-.09c-0.8-.92-2.476-2.82-4.938-2.82a5.873,5.873,0,0,0-4.139,1.72,6.208,6.208,0,0,0-1.849,4.1,6.845,6.845,0,0,0,1.271,4.34,29.307,29.307,0,0,0,4.763,4.75c1.705,1.41,3.95,3.09,4.965,3.09,1.032,0,3.269-1.68,4.965-3.09a29.234,29.234,0,0,0,4.746-4.75A6.935,6.935,0,0,0,882.99,1569.82Zm-2.376,3.61a27,27,0,0,1-4.431,4.42c-2.406,2-3.831,2.79-4.172,2.82-0.342-.03-1.77-0.83-4.188-2.84a26.78,26.78,0,0,1-4.437-4.4,5.6,5.6,0,0,1-1.054-3.54,4.807,4.807,0,0,1,4.666-4.57c1.863,0,3.216,1.54,3.943,2.37a1.52,1.52,0,0,0,1.059.76,1.731,1.731,0,0,0,1.151-.81c0.794-.87,2.122-2.32,3.851-2.32a4.807,4.807,0,0,1,4.666,4.57A5.528,5.528,0,0,1,880.614,1573.43Z"
+										transform="translate(-861 -1564)" />
+								</svg>
+							</button>
+						</div>
+						<p class="products__name">Wooden radio</p>
+						<p class="products__cost">$29.00</p>
+					</div>
+					<div class="products__item">
+						<img src="images/products/1.png" alt="product image">
+						<div class="products__popup-items">
+							<a class="products__popup-item" href="#">
+								<svg width="20" height="20" viewBox="0 0 20 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M759.45,1579.8l-4.588-4.59a8.827,8.827,0,0,1-2.651,2.65l4.588,4.59A1.874,1.874,0,0,0,759.45,1579.8Zm-4.45-9.3a7.5,7.5,0,1,0-7.5,7.5A7.5,7.5,0,0,0,755,1570.5Zm-7.5,5.62a5.625,5.625,0,1,1,5.625-5.62A5.628,5.628,0,0,1,747.5,1576.12Zm-4.375-5.62h1.25a3.135,3.135,0,0,1,3.125-3.13v-1.25A4.386,4.386,0,0,0,743.125,1570.5Z"
+										transform="translate(-740 -1563)" />
+								</svg>
+							</a>
+							<button class="products__popup-item">
+								<svg width="22" height="20" viewBox="0 0 22 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #fff;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M800.814,1564.63h2.333l3.323,12.04a0.812,0.812,0,0,0,.787.59h10.214a0.821,0.821,0,0,0,.746-0.48l3.717-8.56a0.836,0.836,0,0,0-.068-0.78,0.813,0.813,0,0,0-.678-0.37H809.9a0.82,0.82,0,0,0,0,1.64H819.94l-3.011,6.92h-9.062l-3.323-12.03a0.808,0.808,0,0,0-.787-0.6h-2.943A0.815,0.815,0,0,0,800.814,1564.63Zm5.67,18.37a1.85,1.85,0,1,0-1.845-1.85A1.85,1.85,0,0,0,806.484,1583Zm11.53,0h0.135A1.907,1.907,0,1,0,818.014,1583Z"
+										transform="translate(-800 -1563)" />
+								</svg>
+							</button>
+							<button class="products__popup-item">
+								<svg width="22" height="18" viewBox="0 0 22 18">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M882.99,1569.82a6.208,6.208,0,0,0-1.849-4.1A5.871,5.871,0,0,0,877,1564c-2.311,0-3.948,1.78-4.827,2.74a2.156,2.156,0,0,1-.156.17l-0.083-.09c-0.8-.92-2.476-2.82-4.938-2.82a5.873,5.873,0,0,0-4.139,1.72,6.208,6.208,0,0,0-1.849,4.1,6.845,6.845,0,0,0,1.271,4.34,29.307,29.307,0,0,0,4.763,4.75c1.705,1.41,3.95,3.09,4.965,3.09,1.032,0,3.269-1.68,4.965-3.09a29.234,29.234,0,0,0,4.746-4.75A6.935,6.935,0,0,0,882.99,1569.82Zm-2.376,3.61a27,27,0,0,1-4.431,4.42c-2.406,2-3.831,2.79-4.172,2.82-0.342-.03-1.77-0.83-4.188-2.84a26.78,26.78,0,0,1-4.437-4.4,5.6,5.6,0,0,1-1.054-3.54,4.807,4.807,0,0,1,4.666-4.57c1.863,0,3.216,1.54,3.943,2.37a1.52,1.52,0,0,0,1.059.76,1.731,1.731,0,0,0,1.151-.81c0.794-.87,2.122-2.32,3.851-2.32a4.807,4.807,0,0,1,4.666,4.57A5.528,5.528,0,0,1,880.614,1573.43Z"
+										transform="translate(-861 -1564)" />
+								</svg>
+							</button>
+						</div>
+						<p class="products__name">Wooden radio</p>
+						<p class="products__cost">$29.00</p>
+					</div>
+					<div class="products__item">
+						<img src="images/products/1.png" alt="product image">
+						<div class="products__popup-items">
+							<a class="products__popup-item" href="#">
+								<svg width="20" height="20" viewBox="0 0 20 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M759.45,1579.8l-4.588-4.59a8.827,8.827,0,0,1-2.651,2.65l4.588,4.59A1.874,1.874,0,0,0,759.45,1579.8Zm-4.45-9.3a7.5,7.5,0,1,0-7.5,7.5A7.5,7.5,0,0,0,755,1570.5Zm-7.5,5.62a5.625,5.625,0,1,1,5.625-5.62A5.628,5.628,0,0,1,747.5,1576.12Zm-4.375-5.62h1.25a3.135,3.135,0,0,1,3.125-3.13v-1.25A4.386,4.386,0,0,0,743.125,1570.5Z"
+										transform="translate(-740 -1563)" />
+								</svg>
+							</a>
+							<button class="products__popup-item">
+								<svg width="22" height="20" viewBox="0 0 22 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #fff;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M800.814,1564.63h2.333l3.323,12.04a0.812,0.812,0,0,0,.787.59h10.214a0.821,0.821,0,0,0,.746-0.48l3.717-8.56a0.836,0.836,0,0,0-.068-0.78,0.813,0.813,0,0,0-.678-0.37H809.9a0.82,0.82,0,0,0,0,1.64H819.94l-3.011,6.92h-9.062l-3.323-12.03a0.808,0.808,0,0,0-.787-0.6h-2.943A0.815,0.815,0,0,0,800.814,1564.63Zm5.67,18.37a1.85,1.85,0,1,0-1.845-1.85A1.85,1.85,0,0,0,806.484,1583Zm11.53,0h0.135A1.907,1.907,0,1,0,818.014,1583Z"
+										transform="translate(-800 -1563)" />
+								</svg>
+							</button>
+							<button class="products__popup-item">
+								<svg width="22" height="18" viewBox="0 0 22 18">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M882.99,1569.82a6.208,6.208,0,0,0-1.849-4.1A5.871,5.871,0,0,0,877,1564c-2.311,0-3.948,1.78-4.827,2.74a2.156,2.156,0,0,1-.156.17l-0.083-.09c-0.8-.92-2.476-2.82-4.938-2.82a5.873,5.873,0,0,0-4.139,1.72,6.208,6.208,0,0,0-1.849,4.1,6.845,6.845,0,0,0,1.271,4.34,29.307,29.307,0,0,0,4.763,4.75c1.705,1.41,3.95,3.09,4.965,3.09,1.032,0,3.269-1.68,4.965-3.09a29.234,29.234,0,0,0,4.746-4.75A6.935,6.935,0,0,0,882.99,1569.82Zm-2.376,3.61a27,27,0,0,1-4.431,4.42c-2.406,2-3.831,2.79-4.172,2.82-0.342-.03-1.77-0.83-4.188-2.84a26.78,26.78,0,0,1-4.437-4.4,5.6,5.6,0,0,1-1.054-3.54,4.807,4.807,0,0,1,4.666-4.57c1.863,0,3.216,1.54,3.943,2.37a1.52,1.52,0,0,0,1.059.76,1.731,1.731,0,0,0,1.151-.81c0.794-.87,2.122-2.32,3.851-2.32a4.807,4.807,0,0,1,4.666,4.57A5.528,5.528,0,0,1,880.614,1573.43Z"
+										transform="translate(-861 -1564)" />
+								</svg>
+							</button>
+						</div>
+						<p class="products__name">Wooden radio</p>
+						<p class="products__cost">$29.00</p>
+					</div>
+					<div class="products__item">
+						<img src="images/products/1.png" alt="product image">
+						<div class="products__popup-items">
+							<a class="products__popup-item" href="#">
+								<svg width="20" height="20" viewBox="0 0 20 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M759.45,1579.8l-4.588-4.59a8.827,8.827,0,0,1-2.651,2.65l4.588,4.59A1.874,1.874,0,0,0,759.45,1579.8Zm-4.45-9.3a7.5,7.5,0,1,0-7.5,7.5A7.5,7.5,0,0,0,755,1570.5Zm-7.5,5.62a5.625,5.625,0,1,1,5.625-5.62A5.628,5.628,0,0,1,747.5,1576.12Zm-4.375-5.62h1.25a3.135,3.135,0,0,1,3.125-3.13v-1.25A4.386,4.386,0,0,0,743.125,1570.5Z"
+										transform="translate(-740 -1563)" />
+								</svg>
+							</a>
+							<button class="products__popup-item">
+								<svg width="22" height="20" viewBox="0 0 22 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #fff;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M800.814,1564.63h2.333l3.323,12.04a0.812,0.812,0,0,0,.787.59h10.214a0.821,0.821,0,0,0,.746-0.48l3.717-8.56a0.836,0.836,0,0,0-.068-0.78,0.813,0.813,0,0,0-.678-0.37H809.9a0.82,0.82,0,0,0,0,1.64H819.94l-3.011,6.92h-9.062l-3.323-12.03a0.808,0.808,0,0,0-.787-0.6h-2.943A0.815,0.815,0,0,0,800.814,1564.63Zm5.67,18.37a1.85,1.85,0,1,0-1.845-1.85A1.85,1.85,0,0,0,806.484,1583Zm11.53,0h0.135A1.907,1.907,0,1,0,818.014,1583Z"
+										transform="translate(-800 -1563)" />
+								</svg>
+							</button>
+							<button class="products__popup-item">
+								<svg width="22" height="18" viewBox="0 0 22 18">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M882.99,1569.82a6.208,6.208,0,0,0-1.849-4.1A5.871,5.871,0,0,0,877,1564c-2.311,0-3.948,1.78-4.827,2.74a2.156,2.156,0,0,1-.156.17l-0.083-.09c-0.8-.92-2.476-2.82-4.938-2.82a5.873,5.873,0,0,0-4.139,1.72,6.208,6.208,0,0,0-1.849,4.1,6.845,6.845,0,0,0,1.271,4.34,29.307,29.307,0,0,0,4.763,4.75c1.705,1.41,3.95,3.09,4.965,3.09,1.032,0,3.269-1.68,4.965-3.09a29.234,29.234,0,0,0,4.746-4.75A6.935,6.935,0,0,0,882.99,1569.82Zm-2.376,3.61a27,27,0,0,1-4.431,4.42c-2.406,2-3.831,2.79-4.172,2.82-0.342-.03-1.77-0.83-4.188-2.84a26.78,26.78,0,0,1-4.437-4.4,5.6,5.6,0,0,1-1.054-3.54,4.807,4.807,0,0,1,4.666-4.57c1.863,0,3.216,1.54,3.943,2.37a1.52,1.52,0,0,0,1.059.76,1.731,1.731,0,0,0,1.151-.81c0.794-.87,2.122-2.32,3.851-2.32a4.807,4.807,0,0,1,4.666,4.57A5.528,5.528,0,0,1,880.614,1573.43Z"
+										transform="translate(-861 -1564)" />
+								</svg>
+							</button>
+						</div>
+						<p class="products__name">Wooden radio</p>
+						<p class="products__cost">$29.00</p>
+					</div>
+					<div class="products__item">
+						<img src="images/products/1.png" alt="product image">
+						<div class="products__popup-items">
+							<a class="products__popup-item" href="#">
+								<svg width="20" height="20" viewBox="0 0 20 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M759.45,1579.8l-4.588-4.59a8.827,8.827,0,0,1-2.651,2.65l4.588,4.59A1.874,1.874,0,0,0,759.45,1579.8Zm-4.45-9.3a7.5,7.5,0,1,0-7.5,7.5A7.5,7.5,0,0,0,755,1570.5Zm-7.5,5.62a5.625,5.625,0,1,1,5.625-5.62A5.628,5.628,0,0,1,747.5,1576.12Zm-4.375-5.62h1.25a3.135,3.135,0,0,1,3.125-3.13v-1.25A4.386,4.386,0,0,0,743.125,1570.5Z"
+										transform="translate(-740 -1563)" />
+								</svg>
+							</a>
+							<button class="products__popup-item">
+								<svg width="22" height="20" viewBox="0 0 22 20">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #fff;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M800.814,1564.63h2.333l3.323,12.04a0.812,0.812,0,0,0,.787.59h10.214a0.821,0.821,0,0,0,.746-0.48l3.717-8.56a0.836,0.836,0,0,0-.068-0.78,0.813,0.813,0,0,0-.678-0.37H809.9a0.82,0.82,0,0,0,0,1.64H819.94l-3.011,6.92h-9.062l-3.323-12.03a0.808,0.808,0,0,0-.787-0.6h-2.943A0.815,0.815,0,0,0,800.814,1564.63Zm5.67,18.37a1.85,1.85,0,1,0-1.845-1.85A1.85,1.85,0,0,0,806.484,1583Zm11.53,0h0.135A1.907,1.907,0,1,0,818.014,1583Z"
+										transform="translate(-800 -1563)" />
+								</svg>
+							</button>
+							<button class="products__popup-item">
+								<svg width="22" height="18" viewBox="0 0 22 18">
+									<defs>
+										<style>
+											.cls-1 {
+												fill: #a3bbc8;
+												fill-rule: evenodd;
+											}
+										</style>
+									</defs>
+									<path id="Forma_1" data-name="Forma 1" class="cls-1"
+										d="M882.99,1569.82a6.208,6.208,0,0,0-1.849-4.1A5.871,5.871,0,0,0,877,1564c-2.311,0-3.948,1.78-4.827,2.74a2.156,2.156,0,0,1-.156.17l-0.083-.09c-0.8-.92-2.476-2.82-4.938-2.82a5.873,5.873,0,0,0-4.139,1.72,6.208,6.208,0,0,0-1.849,4.1,6.845,6.845,0,0,0,1.271,4.34,29.307,29.307,0,0,0,4.763,4.75c1.705,1.41,3.95,3.09,4.965,3.09,1.032,0,3.269-1.68,4.965-3.09a29.234,29.234,0,0,0,4.746-4.75A6.935,6.935,0,0,0,882.99,1569.82Zm-2.376,3.61a27,27,0,0,1-4.431,4.42c-2.406,2-3.831,2.79-4.172,2.82-0.342-.03-1.77-0.83-4.188-2.84a26.78,26.78,0,0,1-4.437-4.4,5.6,5.6,0,0,1-1.054-3.54,4.807,4.807,0,0,1,4.666-4.57c1.863,0,3.216,1.54,3.943,2.37a1.52,1.52,0,0,0,1.059.76,1.731,1.731,0,0,0,1.151-.81c0.794-.87,2.122-2.32,3.851-2.32a4.807,4.807,0,0,1,4.666,4.57A5.528,5.528,0,0,1,880.614,1573.43Z"
+										transform="translate(-861 -1564)" />
+								</svg>
+							</button>
+						</div>
+						<p class="products__name">Wooden radio</p>
+						<p class="products__cost">$29.00</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="blog">
+			<div class="container-small">
+				<div class="blog__top">
+					<h3 class="title">Our Insights & Articles</h3>
+					<a class="blog__top-link" href="#">View All</a>
+				</div>
+				<div class="blog__bottom">
+					<div class="blog__items">
+						<div class="blog__item">
+							<a class="blog__imagelink" href="#">
+								<img class="blog__img" src="images/blog/1.jpg" alt="blog image">
+								<p class="blog__capsule">news</p>
+							</a>
+							<div class="blog__inner">
+								<a class="blog__text" href="#">Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+									enim
+									ad minim veniam</a>
+								<div class="blog__divider"></div>
+								<div class="blog__info">
+									<div class="blog__date">28 JANUARY, 2020</div>
+									<a class="blog__author" href="#">BY ADMIN</a>
+								</div>
+							</div>
+						</div>
+						<div class="blog__item">
+							<a class="blog__imagelink" href="#">
+								<img class="blog__img" src="images/blog/2.jpg" alt="blog image">
+								<p class="blog__capsule">news</p>
+							</a>
+							<div class="blog__inner">
+								<a class="blog__text" href="#">Aonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+									labore et dolore</a>
+								<div class="blog__divider"></div>
+								<div class="blog__info">
+									<div class="blog__date">28 JANUARY, 2020</div>
+									<a class="blog__author" href="#">BY ADMIN</a>
+								</div>
+							</div>
+						</div>
+						<div class="blog__item">
+							<a class="blog__imagelink" href="#">
+								<img class="blog__img" src="images/blog/3.jpg" alt="blog image">
+								<p class="blog__capsule">news</p>
+							</a>
+							<div class="blog__inner">
+								<a class="blog__text" href="#">Rncididunt ut labore et dolore magna aliqua. Ut enim </a>
+								<div class="blog__divider"></div>
+								<div class="blog__info">
+									<div class="blog__date">28 JANUARY, 2020</div>
+									<a class="blog__author" href="#">BY ADMIN</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="blog__partners">
+					<img class="blog__partner" src="images/blog/partners/1.png" alt="partner image">
+					<img class="blog__partner" src="images/blog/partners/2.png" alt="partner image">
+					<img class="blog__partner" src="images/blog/partners/3.png" alt="partner image">
+					<img class="blog__partner" src="images/blog/partners/4.png" alt="partner image">
+					<img class="blog__partner" src="images/blog/partners/5.png" alt="partner image">
+				</div>
+			</div>
+			<div class="blog__background"></div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container-small">
+			<div class="footer__top">
+				<div class="footer__items">
+					<div class="footer__item footer__item-contact">
+						<a class="logo__link" href="#"><img class="logo__img" src="images/logo.png" alt="logo"></a>
+						<a class="footer__address" href="#">ADDRESS: 4772 Wines Lane
+							Houston, TX 77032</a>
+						<a class="footer__phone" href="tel:+8323475843">TELEPHONE: +832-347-5843
+						</a>
+						<a class="footer__email" href="mailto:contact@Glee.com">EMAIL: contact@Glee.com</a>
+					</div>
+					<div class="footer__item footer__item-info">
+						<h6 class="footer__title">Services</h6>
+						<ul class="footer__list">
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">
+									About us
+								</a>
+							</li>
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">
+									Return Policy
+
+								</a>
+							</li>
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">
+									Our Blog
+								</a>
+							</li>
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">
+									Contact Us
+								</a>
+							</li>
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">
+									Terms & Condition
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item footer__item-info">
+						<h6 class="footer__title">Account</h6>
+						<ul class="footer__list">
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">
+									Your Account
+								</a>
+							</li>
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">
+									Checkout
+								</a>
+							</li>
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">
+									Login
+								</a>
+							</li>
+							<li class="footer__list-item">
+								<a class="footer__list-link" href="#">
+									Register
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__item footer__item-news">
+						<h6 class="footer__title">newsletter</h6>
+						<p class="footer__text">Subscribe by our newsletter and get <br>
+							update protidin.</p>
+						<form action="#">
+							<input class="footer__input" type="email" required placeholder="Email address">
+							<button class="footer__btn" type="submit">Subcribe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<p class="footer__copy">©2020 CopyRight Example. All rights reserved.</p>
+				<div class="footer__bottom-nav">
+					<a class="footer__bottom-nav-link" href="#">Home </a>|
+					<a class="footer__bottom-nav-link" href="#">About </a>|
+					<a class="footer__bottom-nav-link" href="#">Blog </a>|
+					<a class="footer__bottom-nav-link" href="#">Contact</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="js/main.min.js"></script>
+
+</html>
