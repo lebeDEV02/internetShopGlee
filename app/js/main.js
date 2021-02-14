@@ -44,8 +44,17 @@ $(function () {
 		asNavFor: '.product-about__small',
 		draggable: false,
 		fade: true,
-		arrows: false
-
+		arrows: false,
+		responsive: [
+			{
+				breakpoint: 901,
+				settings: {
+					draggable: true,
+					fade: false,
+					autoplay: true
+				}
+			}
+		]
 	});
 	$('.product-about__input').styler();
 	$('.shop-filters__price-input').ionRangeSlider({

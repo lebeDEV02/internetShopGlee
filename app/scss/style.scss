@@ -568,7 +568,7 @@
     background: none;
     @extend %rubik-400;
 	 color: #333;
-	 text-align: center;
+	 text-align: center !important;
 	 margin-right: 15px;
 }
 .jq-number__field {
