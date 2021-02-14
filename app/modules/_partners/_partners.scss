@@ -7,3 +7,24 @@
 	align-items: center;
 	}
 }
+
+
+@media(max-width: 1100px){
+	.partners{
+		&__inner{
+			padding: 80px 0;
+		}
+	}
+}
+
+@media(max-width: 800px){
+	.partners{
+		&__inner{
+			flex-direction: column;
+			padding: 50px 0;
+		}
+		.partner{
+			margin-top: 10px;
+		}
+	}
+}
